@@ -11,9 +11,23 @@ h1 {
 
 /* drawing board */
 .container {
-  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
   width: 600px;
   height: 600px;
+}
+
+/* boxes in the drawing board */
+
+.grid-row {
+  display: flex;
+  flex: 1;
+}
+
+.grid-box {
+  border: solid black 1px;
+  flex: 1;
 }
 
 /* buttons styling & positioning */
