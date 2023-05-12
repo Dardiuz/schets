@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin-bottom: 45px;
+}
+
+/* drawing board */
+.container {
+  border: solid black 2px;
+  width: 600px;
+  height: 600px;
+}
+
+/* buttons styling & positioning */
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 100px;
+  margin-top: 35px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6%;
+  font-size: 18px;
+  width: 110px;
+  height: 40px;
+}
+
+.random {
+  background-color: darkolivegreen;
+  color: white;
+  border: none;
+  border-radius: 6%;
+  font-size: 18px;
+  width: 110px;
+  height: 40px;
+}
+
+.reset {
+  background-color: darkgrey;
+  color: white;
+  border: none;
+  border-radius: 6%;
+  font-size: 18px;
+  width: 110px;
+  height: 40px;
+}
