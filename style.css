@@ -26,7 +26,7 @@ h1 {
 }
 
 .grid-box {
-  border: solid black 1px;
+  border: solid rgb(71, 60, 60) 1px;
   flex: 1;
 }
 
@@ -38,7 +38,7 @@ h1 {
   margin-top: 35px;
 }
 
-.black {
+#blackColor {
   background-color: black;
   color: white;
   border: none;
@@ -48,7 +48,7 @@ h1 {
   height: 40px;
 }
 
-.random {
+#randomColor {
   background-color: darkolivegreen;
   color: white;
   border: none;
@@ -58,7 +58,7 @@ h1 {
   height: 40px;
 }
 
-.reset {
+#resetGrid {
   background-color: darkgrey;
   color: white;
   border: none;
